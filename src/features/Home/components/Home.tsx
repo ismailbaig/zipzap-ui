@@ -1,5 +1,5 @@
 import { Button, Container, CssBaseline, Grid, Typography } from "@mui/material";
-import { api_getHomeData } from "./api/getHomeData";
+import { api_getHomeData } from "../api/getHomeData";
 
 const Home = () => {
   const getHomeData = () => {

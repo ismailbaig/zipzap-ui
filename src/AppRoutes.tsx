@@ -1,7 +1,7 @@
 import './AppRoutes.css';
 import { Route, Routes } from 'react-router-dom';
 import NoPage from './features/NoPage/NoPage';
-import Home from './features/Home/Home';
+import Home from './features/Home/components/Home';
 import DrawerAppBar from './features/Drawer';
 import Contact from './features/Contact';
 import About from './features/About/About';
