@@ -1,12 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
 import './AppRoutes.css';
 import { Route, Routes } from 'react-router-dom';
-import NoPage from './NoPage/NoPage';
-import Home from './Home/Home';
-import DrawerAppBar from './Drawer';
-import Contact from './Contact/Contact';
-import About from './About/About';
+import NoPage from './features/NoPage/NoPage';
+import Home from './features/Home/Home';
+import DrawerAppBar from './features/Drawer';
+import Contact from './features/Contact';
+import About from './features/About/About';
 
 function AppRoutes() {
   return (
